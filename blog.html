@@ -82,7 +82,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item {{home_active}}">
                             <a class="nav-link header-text-color" href="index.html">Home</a>
                         </li>
                         <div class="nav-item {{service_active}} dropdown">
@@ -114,7 +114,7 @@
                                </div>
                             </div>
                         </div>
-                        <li class="nav-item {{blog_active}}">
+                        <li class="nav-item active">
                             <a class="nav-link header-text-color" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item {{contact_active}}" style="display: inherit">
@@ -152,187 +152,18 @@
             </div>
         </nav>
         
-            <div class="container" style=" background-color : white;">
 
-            <header class="py-2 border-bottom mb-4" style="display: inherit">
-                <div class="ql-editor py-4" id="sitewide-header" >
-                    <p>some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. </p>
-                </div>
-            </header>
-
+        <div class="container px-4 px-lg-5">
+        <header class="py-2 border-bottom mb-4" style="display: inherit">
+            <div class="ql-editor py-4" id="sitewide-header" >
+                <p>some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. </p>
+            </div>
+        </header>
+        <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
             <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center py-lg-6">
-                    <div class="col-lg-7     ">
-                        <h1 class="font-weight-light">MeeZee Group of Industriiii</h1>
-                        <h4 class="font-weight-light text-gray">street name heree,Pasrurieee,Punjabieee,PK</h4>
-                    </div>
-                    <div class="col-lg-5" style="text-align: right;">
-                        <a class="btn btn-primary btn-sm" style="width: 100px; display: " target="_blank" href="tel:12354123456223452">Call Now</a>
-                        <a class="btn btn-primary btn-sm" style="width: 100px; display: " target="_blank" href="mailto:mesh-mesh@mesh.ee">Email Now</a>
-                        <button id="myBtn" class="btn btn-primary btn-sm" style="width: 105px; display: ">Get Direction</button>
-                    </div>
-            </div>
-            <div class="row gx-4 gx-lg-5 align-items-center" style=" display:  " >
-                <div class="col-lg-3">
-                    <h2 class="font-weight-light">Working Hours</h2>
-                </div>
-                <div class="col-lg-5">
-                    <h5>Today: <span class="text-primary today_hours">{{today_time}}</span></h5>
-                </div>
-            </div>
-            <div class="row gx-4 gx-lg-5 align-items-center py-lg-4" style=" display:  " >
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Mon:</h5></td>
-                            <td><h5 class="working_hours">00:00 AM - 06:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Tue:</h5></td>
-                            <td><h5 class="working_hours" >00:00 AM - 00:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Wed:</h5></td>
-                            <td><h5 class="working_hours">00:00 AM - 06:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Thur:</h5></td>
-                            <td><h5 class="working_hours" >00:00 AM - 06:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Fri:</h5></td>
-                            <td><h5 class="working_hours" >00:00 AM - 06:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Sat:</h5></td>
-                            <td><h5 class="working_hours" >00:00 PM - 06:00 AM</h5></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-lg-4">
-                    <table width="100%">
-                        <tr>
-                            <td width="30%"><h5 class="text-gray">Sun:</h5></td>
-                            <td><h5 class="working_hours" >Close</h5></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-             <div class="py-2 border-bottom mb-2" style="display: none">
-                <div class="ql-editor">
-                    
-                </div>
-            </div>
-
-            <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
-                <div class="col-lg-12 py-lg-2">
-                    <h3 class="font-weight-light">Services Offered By MeeZee Group of Industriiii</h3>
-                </div>
-
-                <div class="col-lg-4">
-                <a href="charity-and-donation-programs.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="16595.jpg?key=0uCbpP" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="charity-and-donation-programs.html"  style="text-decoration: none;color: inherit;">
-                        <h2>Charity and Donation Programs</h2>
-                        <p class="card-text py-lg-2">Welcome to MeeZee Group of Industr, a company dedicated to helping people in need through charity and donation programs. Our mission is to provide meaningful and lasting support to those in need, and to make a positive impact on the lives of those we......
-                            <a href="charity-and-donation-programs.html" class="text-primary">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div><div class="col-lg-4">
-                <a href="community-outreach-programs-1.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="16594.jpg?key=64sIBz" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="community-outreach-programs-1.html"  style="text-decoration: none;color: inherit;">
-                        <h2>Community Outreach Programs</h2>
-                        <p class="card-text py-lg-2">Welcome to MeeZee Group of Industr, a business dedicated to helping communities through our innovative community outreach programs. Our mission is to create a better world by connecting people and organizations to the resources they need to make a po......
-                            <a href="community-outreach-programs-1.html" class="text-primary">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div><div class="col-lg-4">
-                <a href="islamic-education.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="16593.jpg?key=nwq7mF" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="islamic-education.html"  style="text-decoration: none;color: inherit;">
-                        <h2>Islamic Education</h2>
-                        <p class="card-text py-lg-2">Welcome to MeeZee Group of Industr, the premier provider of Islamic Education in Pasrurieee. Our mission is to provide quality Islamic education to our students, enabling them to become successful and productive members of society.......
-                            <a href="islamic-education.html" class="text-primary">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div><div class="col-lg-4">
-                <a href="quranic-recitation.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="16592.jpg?key=0fcXlf" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="quranic-recitation.html"  style="text-decoration: none;color: inherit;">
-                        <h2>Quranic Recitation</h2>
-                        <p class="card-text py-lg-2">Welcome to MeeZee Group of Industr, the leading provider of Quranic Recitation services. We are a family-owned business located in Pasrurieee, dedicated to helping people of all ages and backgrounds learn and appreciate the beauty of the Quran.......
-                            <a href="quranic-recitation.html" class="text-primary">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div>
-
-                <div class="col-md-12" >
-                    <a href="services.html" style="text-decoration: none">
-                    <div style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
-                        <h4 class="text-primary">View Services</h4>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-
-            <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
-                <div class="col-lg-12 py-lg-2">
+             <div class="col-lg-12 py-lg-2">
                     <h3 class="font-weight-light">MeeZee Group of Industriiii: Latest Blog Posts</h3>
-                </div>
-
-
-                <div class="col-md-6 mb-5">
+                </div><div class="col-md-6 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
                         <a href="muslim-kids-games.html" style="text-decoration: none;color: inherit;">
@@ -404,35 +235,179 @@
                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12" >
-                    <a href="blog.html" style="text-decoration: none">
-                        <div style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
-                            <h4 class="text-primary">View Posts</h4>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="did-you-know-facts-about-mosques.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">Did you know facts about mosques?</h2>
+                            <p class="card-text py-lg-2">Mosques are a place of worship for Muslims. They are typically located in urban areas. Many mosques have historical significance. Some mosques have been built in recent years to accommodate the growing Muslim population.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="did-you-know-facts-about-mosques.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
                         </div>
-                    </a>
-                </div>
-            </div>
-
-             <div class="ql-editor mb-4" style="display:none">
-                
-             </div>
-             <div class="pb-5 ql-editor" id="sitewide-footer" style="display:inherit">
-                <p>some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. </p>
-            </div>
-             <div id="myModal" class="modal">
-                 <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: ">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3373.5651467835464!2d74.63595241504393!3d32.26978038112816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391eb73377d9f3bf%3A0xc6dd8e8787b70bf4!2sAladin%20Family%20Park!5e0!3m2!1sen!2s!4v1677233742600!5m2!1sen!2s" frameborder="0"
-                                style="border:0; " allowfullscreen ></iframe>
                     </div>
-                    
-                 </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-history-of-mosque-in-islam.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What is the history of mosque in Islam?</h2>
+                            <p class="card-text py-lg-2">Mosques have a long and rich history in Islam. They are considered to be one of the most important places of worship for Muslims, and are often the center of community life. Mosques originated in Mecca, and throughout history they have been used as p......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-the-history-of-mosque-in-islam.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-main-purpose-of-a-mosque.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What is the main purpose of a mosque?</h2>
+                            <p class="card-text py-lg-2">A mosque is a place of worship for Muslims. Muslims believe that mosques are the most important places of worship in the world. Mosques serve as a place of refuge for Muslims during times of crisis, and they are also used for religious education and ......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-is-the-main-purpose-of-a-mosque.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="why-is-the-mosque-important-to-islam.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">Why is the mosque important to Islam?</h2>
+                            <p class="card-text py-lg-2">The mosque is an important part of Islam because it is where Muslims come together to pray. Muslims believe that the mosque is the place where God first revealed the Quran to Prophet Muhammad.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="why-is-the-mosque-important-to-islam.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-does-mosque-mean-in-islam.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What does mosque mean in Islam?</h2>
+                            <p class="card-text py-lg-2">Mosque means a place of worship for Muslims. It is also the name of the building in which the worship takes place. Muslims believe that the first mosque was built by the prophet Muhammad in the city of Mecca.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-does-mosque-mean-in-islam.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="can-any-religion-go-to-a-mosque.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">Can any religion go to a mosque?</h2>
+                            <p class="card-text py-lg-2">There is no set answer to this question as it depends on the religion in question. Some religions, such as Christianity, do not have a specific temple or place of worship that can be used for mosque visits. Other religions, such as Islam, have a spec......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="can-any-religion-go-to-a-mosque.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-do-muslims-do-in-a-mosque.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What do Muslims do in a mosque?</h2>
+                            <p class="card-text py-lg-2">Muslims come to mosques to pray and to learn about their religion. Muslims pray five times a day, and during prayer, they stand, face Mecca, and bow their heads. Muslims also read from the Quran and learn about Islam from religious teachers.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-do-muslims-do-in-a-mosque.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-does-mosque-mean.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What does mosque mean?</h2>
+                            <p class="card-text py-lg-2">A mosque is a place of worship for Muslims. It is also a place where Muslims can come to learn about their religion and to pray. Mosques can be found all over the world, and they are often very beautiful.......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-does-mosque-mean.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-religion-is-a-mosque.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: inherit">
+                                <span class="text-gray" style="padding-right: 30px"><i class="fa fa-calendar" style="padding-right: 10px"></i>2023-02-24</span>
+                                <span class="text-gray"><i class="fa fa-user" style="padding-right: 10px"></i>Abdul Qayyum</span>
+                            </div>
+                            <h2 class="card-title">What religion is a mosque?</h2>
+                            <p class="card-text py-lg-2">Mosques are religious buildings used by Muslims. A mosque can be any size, but the largest mosques can have a capacity of over 1,000 people. Mosques are usually located in major cities, and are often the most visible and important symbols of Muslim c......</p>
+                            <div style="float: right">
+                                <a class="btn btn-primary btn-sm" href="what-religion-is-a-mosque.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="">
+            <div>
+                
             </div>
         </div>
-
-
+        <div class="pb-5 ql-editor" id="sitewide-footer" style="display:inherit">
+            <p>some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. some text here. </p>
+        </div>
+        </div>
 
         <!-- Footer-->
 
